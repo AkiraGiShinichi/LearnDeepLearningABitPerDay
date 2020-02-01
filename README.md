@@ -9,5 +9,6 @@ To follow these sources:
  
 Expert goals:
  - Deep Learning
+ - Reinforcement Learning
  - Cloud Service
  - Quantum Computing
