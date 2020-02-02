@@ -12,3 +12,11 @@ Expert goals:
  - Reinforcement Learning
  - Cloud Service
  - Quantum Computing
+ - Blockchain
+
+### Day 1(20200201): Clear goal of DL.
+ - Image processing: computer vision + object detection
+  - Neural Network models: DNN, CNN, DRNN, GAN, ResNET, Dense net, Siamese NET, ...
+  - Optimization Algorithm: LP, DP, ILP, and all kind of heuristic searching algorithm
+ - NLP: ?
+ 
