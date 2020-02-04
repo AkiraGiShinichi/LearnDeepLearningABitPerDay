@@ -28,3 +28,18 @@ Expert goals:
  - Quadratic Programming
  - Meta-heuristic algorithms: Genetic Algorithm or Partical Swarm Optimization & variant [Survey of Meta-Heuristic Algorithms for Deep Learning Trainin - 2016](https://www.intechopen.com/books/optimization-algorithms-methods-and-applications/survey-of-meta-heuristic-algorithms-for-deep-learning-training), A*, Deep Learning Heuristic Tree Search
  ![](https://www.intechopen.com/media/chapter/51131/media/fig2.png)
+
+### Day 3(20200203): How to use Pytorch/Fastai
+**Simplest training program**:
+```Python
+from fastai.vision import *
+
+path = untar_data(URLs.MNIST_SAMPLE)
+data = ImageDataBunch.from_folder(path)
+
+model = simple_cnn((3,16,16,2))
+
+learn = Learner(data, model)
+
+learn.fit(1)
+```
