@@ -30,17 +30,21 @@ Expert goals:
  ![](https://www.intechopen.com/media/chapter/51131/media/fig2.png)
 
 ### Day 3(20200203): How to use Pytorch/Fastai
-**Simplest training program**:
+**Simplest training program**: 4 steps
 ```Python
 from fastai.vision import *
 
+// 1. Load data from path(download from URL to path)
 path = untar_data(URLs.MNIST_SAMPLE)
 data = ImageDataBunch.from_folder(path)
 
+// 2. Define model
 model = simple_cnn((3,16,16,2))
 
+// 3. Create learner
 learn = Learner(data, model)
 
+// 4. Train
 learn.fit(1)
 ```
 
