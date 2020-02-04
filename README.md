@@ -29,7 +29,7 @@ Expert goals:
  - Meta-heuristic algorithms: Genetic Algorithm or Partical Swarm Optimization & variant [Survey of Meta-Heuristic Algorithms for Deep Learning Trainin - 2016](https://www.intechopen.com/books/optimization-algorithms-methods-and-applications/survey-of-meta-heuristic-algorithms-for-deep-learning-training), A*, Deep Learning Heuristic Tree Search
  ![](https://www.intechopen.com/media/chapter/51131/media/fig2.png)
 
-### Day 3(20200203): How to use [Pytorch/Fastai.v3](https://course.fast.ai/)
+### Day 4(20200204): How to use [Pytorch/Fastai.v3](https://course.fast.ai/)
 **Simplest training program**: 4 steps
 ```Python
 from fastai.vision import *
