@@ -43,3 +43,5 @@ learn = Learner(data, model)
 
 learn.fit(1)
 ```
+
+**Should read tomorrow:** https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33
