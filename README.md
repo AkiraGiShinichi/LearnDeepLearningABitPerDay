@@ -52,7 +52,7 @@ learn.fit(1)
 
 **Should inquire next next day:** Fastai emphasis: https://www.fast.ai/
 
-### Day 5(20200205): Read a paper about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
+### Day 5(20200205): Read half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
 
 **Summarize smt I learnt from reading it:**
  - Feedfoward Network 1 hidden layer có thể ước lượng mọi hàm ⇒ ứng dụng?
@@ -61,5 +61,5 @@ learn.fit(1)
   - 2 new loss functions: **Pixel MSE, Feature loss** ⇒ Ứng dụng:?
   - **Discriminative lr** là gì?
   - Dùng Random Forest search hyperparameters thế nào?
-  - Mix precision training: Single precision for backpropagation, half precision for feedforward. ⇒ How to implement?
+  - **Mix precision training**: Single precision for backpropagation, half precision for feedforward. ⇒ How effective & How to implement?
   - Regularisation: use **magic number 0.1** for weight decay.
