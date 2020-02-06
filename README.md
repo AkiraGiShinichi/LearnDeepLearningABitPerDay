@@ -63,3 +63,12 @@ learn.fit(1)
   - Dùng Random Forest search hyperparameters thế nào?
   - **Mix precision training**: Single precision for backpropagation, half precision for feedforward. ⇒ How effective & How to implement?
   - Regularisation: use **magic number 0.1** for weight decay.
+
+### Day 6(20200206): Continue reading half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
+ - Some different kinds of classsification: multi-label classification, multi-class classification/multinomial classification. How loss of multi-label classification work?
+ - Language Modeling: can use transfer learning, should check course ULMFiT.
+ - Tabular Data: not understand yet :(
+ - Collaborative Filtering: a kind of action predicting?
+ - Image Generation(use GAN): What is crappification? Why GAN, momentum should be 0? Improve quality by Perceptual loss(AKA feature loss), what exactly is it?
+ - Model interpretability: can observe through fastai activation heat map.
+ - To penalize the model complexity by sum square and `wd` ratio.
