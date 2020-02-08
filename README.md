@@ -81,10 +81,14 @@ learn.fit(1)
   - Install: 
    + NVIDIA drivers: `sudo ubuntu-drivers autoinstall`
    
- **Install docker -> nvidia-docker -> tensorflow**:
+**Install docker -> nvidia-docker -> tensorflow**:
  https://www.tensorflow.org/install/docker
  
- *Config to use docker without sudo*: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
- 
+*Config to use docker without sudo*: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+
+**Install miniconda**:
+ - Download & Install from official website
+ - Run `source ~/.bashrc`
+
 ### Day 8(20200208): Try Fastai DL framework.
 
