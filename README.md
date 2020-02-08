@@ -92,4 +92,23 @@ learn.fit(1)
  - Run `source ~/.bashrc`
 
 ### Day 8(20200208): Try Fastai DL framework.
+**Basic program to train a network**
+```python
+# 1. Import library
+from fastai.vision import *
+from fastai.metrics import error_rate
 
+# 2. Get data
+path = untar_data(URLs.PETs)
+# ... extract path_img, filenames from path
+# ... define pattern from data specific
+
+# 3. Define data object
+data = ImageDataBunch.from_name_re(path_img, filenames, pattern, ds_tfms=get_transforms(), size=224, bs=64).normalize(imagenet_stats)
+
+# 4. Define learner
+learn = cnn_learner(data, models.resnet34, metrics=error_rate)
+
+# 5. Train
+learn.fit_one_cycle(4)
+```
