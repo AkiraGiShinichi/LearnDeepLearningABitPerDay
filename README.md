@@ -113,3 +113,42 @@ learn = cnn_learner(data, models.resnet34, metrics=error_rate)
 # 3. Train
 learn.fit_one_cycle(4)
 ```
+
+### Day 9(20200209): How to develope a DL application.
+**Steps to develope a DL application**: 4 main steps
+ - create your own data
+ - train the model
+ - interpretation
+ - put model into production
+ 
+#### Create your own data:
+#### Train the model:
+```python
+# 1. Define learner
+learn = cnn_learner(data, models.resnet34, metrics=error_rate)
+
+# 2. Train last-layers
+learn.fit_one_cycle(4)
+learn.save('stage-1')
+
+# 3. Fine-tune first-layers
+# 3.a. Find suitable lr
+learn.unfreeze()
+learn.lr_find()
+learn.recorder.plot() # select min&max lr from this graph
+
+# 3.b. Train
+learn.fit_one_cycle(2, max_lr=slice(3e-5,3e-4))
+learn.save('stage-2')
+```
+#### Interpretation:
+#### Put model into production:
+```python
+learn.export() # export to "export.pkl"
+```
+
+```python
+defaults.device = torch.device('cpu')
+learn = load_learner(path) # path of "export.pkl"
+pred_class,pred_idx,outputs = learn.predict(img)
+```
