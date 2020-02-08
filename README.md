@@ -72,3 +72,19 @@ learn.fit(1)
  - Image Generation(use GAN): What is crappification? Why GAN, momentum should be 0? Improve quality by Perceptual loss(AKA feature loss), what exactly is it?
  - Model interpretability: can observe through fastai activation heat map.
  - To penalize the model complexity by sum square and `wd` ratio.
+ 
+ ### Day 7(20200207): Setup Deep Learning Evironment.
+ 
+ **Install Ubuntu on MSI**:
+  - [Disable Security Boot & add `nomodeset` before install](https://medium.com/@carlosero/making-ubuntu-18-04-work-on-msi-gs65-8re-9818f4d9dc9d). Should analysize only 2 partitions: swap + root
+  - Update then restart(should add `nomodeset` when startting up also).
+  - Install: 
+   + NVIDIA drivers: `sudo ubuntu-drivers autoinstall`
+   
+ **Install docker -> nvidia-docker -> tensorflow**:
+ https://www.tensorflow.org/install/docker
+ 
+ *Config to use docker without sudo*: https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04
+ 
+### Day 8(20200208): Try Fastai DL framework.
+
