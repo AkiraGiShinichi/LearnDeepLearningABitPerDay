@@ -6,6 +6,7 @@ To follow these sources:
  - DL powerful framework fastai from Jeremy Howard: https://www.youtube.com/watch?v=XfoYk_Z5AkI&list=PLfYUBJiXbdtSIJb-Qd3pw0cqCbkGeS0xn
  - DL general view from Siraj Raval: https://www.youtube.com/watch?v=eN9Lb3vXsAw
  - DL techniques from PyImageSearch: https://www.pyimagesearch.com/category/tutorials/
+ - VuHuuTiep: https://github.com/aivivn/d2l-vn?fbclid=IwAR2EVSScFf7WgXsS_tguhKdt6EG2o-W98x_Vhz1AruIvUxcCriAaMl7wheo
  
 Expert goals:
  - Deep Learning
