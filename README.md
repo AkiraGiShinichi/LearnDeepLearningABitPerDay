@@ -136,7 +136,6 @@ learn.save('stage-1')
 learn.unfreeze()
 learn.lr_find()
 learn.recorder.plot() # select min&max lr from this graph
-
 # 3.b. Train
 learn.fit_one_cycle(2, max_lr=slice(3e-5,3e-4))
 learn.save('stage-2')
