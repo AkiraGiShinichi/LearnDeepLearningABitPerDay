@@ -94,6 +94,7 @@ learn.fit(1)
 ### Day 8(20200208): Try Fastai DL framework.
 **Basic program to train a network:** 3 main steps
 ```python
+# Reference: fastai/course-v3/nbs/dl1/lesson1-pets.ipynb
 # 0.a. Import library
 from fastai.vision import *
 from fastai.metrics import error_rate
