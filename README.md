@@ -154,8 +154,29 @@ pred_class,pred_idx,outputs = learn.predict(img)
 
 ### Day 10(20200210): Create your own image-data from google.
 
-**Steps**:
+**Steps to get urls of google images**:
  - type `label` of images into google images
  - press `ctrl+shift+J`(chrome) or `ctrl+shift+K`(firefox) to open Javascript console.
  - paste `urls=Array.from(document.querySelectorAll('.rg_i')).map(el=> el.hasAttribute('data-src')?el.getAttribute('data-src'):el.getAttribute('data-iurl'));window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));` into console to download urls of images.
  - there will be a popup on the top of browser, select `show..` to show saving dialog and to download the image urls.
+ 
+**Steps to download**:
+ - create a folder such as `data`. Inside, copy csv of urls into and make the same name folder for each csv file.
+ - in Jupyter, declare the path such as `path = Path('data')`.
+ - download images by running `download_images(path/file, dest, max_pics=200)`
+
+*Steps to remove broken images(Optional)*
+ - in Jupyter run:
+ ```python
+ for c in classes:
+   print(c)
+   verify_images(path/c, delete=True, max_size=500)
+ ```
+*Steps to view images(Optional)*:
+```python
+np.random.seed(42)
+data = ImageDataBunch.from_folder(path, train=".", valid_pct=0.2,
+        ds_tfms=get_transforms(), size=224, num_workers=4).normalize(imagenet_stats)
+data.classes
+data.show_batch(rows=3, figsize=(7,8))
+```
