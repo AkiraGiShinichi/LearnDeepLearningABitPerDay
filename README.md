@@ -151,3 +151,11 @@ defaults.device = torch.device('cpu')
 learn = load_learner(path) # path of "export.pkl"
 pred_class,pred_idx,outputs = learn.predict(img)
 ```
+
+### Day 10(20200210): Create your own image-data from google.
+
+**Steps**:
+ - type `label` of images into google images
+ - press `ctrl+shift+J`(chrome) or `ctrl+shift+K`(firefox) to open Javascript console.
+ - paste `urls=Array.from(document.querySelectorAll('.rg_i')).map(el=> el.hasAttribute('data-src')?el.getAttribute('data-src'):el.getAttribute('data-iurl'));window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));` into console to download urls of images.
+ - there will be a popup on the top of browser, select `show..` to show saving dialog and to download the image urls.
