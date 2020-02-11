@@ -180,3 +180,33 @@ data = ImageDataBunch.from_folder(path, train=".", valid_pct=0.2,
 data.classes
 data.show_batch(rows=3, figsize=(7,8))
 ```
+
+
+### Day 11(20200211): Practice simple Pytorch.
+```python
+%matplotlib inline
+from fastai.basics import *
+
+n=100
+x = torch.ones(n, 2)
+x[:, 0].uniform_(-1., 1)
+# print(x)
+a = tensor(3., 2)
+# print(a)
+y = x@a + torch.rand(n) # make func: y = a*x + noise
+
+def mse(y_hat, y): return((y_hat - y) ** 2).mean()
+
+def update(): # linear regression
+    y_hat = x@aa
+    loss = mse(y_hat, y)
+    print(loss)
+    loss.backward() # to measure aa.grad(=dloss/daa)
+    with torch.no_grad():
+        aa.sub_(lr * aa.grad) # update aa
+        aa.grad.zero_() # clear grad of aa
+    
+aa = nn.Parameter(tensor(1., 1))
+lr = 1e-1
+for t in range(100): update() # adjust aa step by step
+```
