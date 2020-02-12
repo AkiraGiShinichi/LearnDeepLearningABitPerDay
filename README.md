@@ -210,3 +210,7 @@ aa = nn.Parameter(tensor(1., 1))
 lr = 1e-1
 for t in range(100): update() # adjust aa step by step
 ```
+
+### Day 12(20200212): Practice [simple Pytorch](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
+
+[Practice code](day12/Untitled20.ipynb)
