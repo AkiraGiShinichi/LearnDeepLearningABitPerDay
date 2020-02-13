@@ -248,7 +248,7 @@ for epochs:
 **Some important functions of Fastai lesson 1**:
 
  1. `fastai.vision.data.ImageDataBunch`
-![](https://forums.fast.ai/uploads/default/optimized/2X/c/ce82725c7c3e8c9d2fb828b2a4bd859018bc4cce_2_1035x540.png}
+![](https://forums.fast.ai/uploads/default/optimized/2X/c/ce82725c7c3e8c9d2fb828b2a4bd859018bc4cce_2_1035x540.png)
 
  2. `ds_tfms`
 	 - applying to images on the fly
