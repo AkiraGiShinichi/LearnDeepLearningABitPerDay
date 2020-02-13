@@ -214,3 +214,27 @@ for t in range(100): update() # adjust aa step by step
 ### Day 12(20200212): Practice [simple Pytorch](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
 
 [Practice code](day12/Untitled20.ipynb)
+
+### Day 13(20200213): Read Fastai [Lesson 1 Notes](https://forums.fast.ai/t/deep-learning-lesson-1-notes/27748)
+
+**Some important functions of Fastai lesson 1**:
+
+ 1. `fastai.vision.data.ImageDataBunch`
+![](https://forums.fast.ai/uploads/default/optimized/2X/c/ce82725c7c3e8c9d2fb828b2a4bd859018bc4cce_2_1035x540.png}
+
+ 2. `ds_tfms`
+	 - applying to images on the fly
+	 - changes all the image sizes to 224 X 224
+	 - images get centered, cropped and zoomed a little bit by transformation functions
+ 
+	**Q**: Why 224 not 256?
+		- models are designed so that the final layer is of size 7 by 7
+		- we want something where if you go 7 times 2 a bunch of times (224 = 7 2222*2)
+ 
+ 3. `data.normalize(imagenet_stats)`
+	[Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?](https://stats.stackexchange.com/questions/211436/why-normalize-images-by-subtracting-datasets-image-mean-instead-of-the-current)
+
+	*Advice*: If you have accuracy trouble while training a model one thing to verify is that whether you have normalized the data properly.
+
+ 4. `fastai.vision.learner.create_cnn`
+	- resnet34 was trained on half million images of 1000 categories.
