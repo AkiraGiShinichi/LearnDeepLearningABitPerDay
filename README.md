@@ -266,3 +266,8 @@ for epochs:
 
  4. `fastai.vision.learner.create_cnn`
 	- resnet34 was trained on half million images of 1000 categories.
+
+[Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
+[Practice code using nn.Module](day13/23Refactor using nn.Module.ipynb)
+
+
