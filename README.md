@@ -211,18 +211,19 @@ lr = 1e-1
 for t in range(100): update() # adjust aa step by step
 ```
 
-### Day 12(20200212): Practice [simple Pytorch](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
+### Day 12(20200212): Practice simple Pytorch - [backpropagation](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
 
 [Practice code](day12/Untitled20.ipynb)
 
+*y = A*x + B*
 ```python
-# y = A*x + B
 # 1st way
 y = A.matmul(x) + B
 # 2nd way
 y = A @ x + B
 ```
 
+*backpropagation*:
 ```python
 for epochs:
     for batches:
