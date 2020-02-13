@@ -215,6 +215,33 @@ for t in range(100): update() # adjust aa step by step
 
 [Practice code](day12/Untitled20.ipynb)
 
+```python
+# y = A*x + B
+# 1st way
+y = A.matmul(x) + B
+# 2nd way
+y = A @ x + B
+```
+
+```python
+for epochs:
+    for batches:
+        # xb
+        # yb
+        yb_hat = pred = model(xb)
+        
+        loss = nll(yb_hat, yb)
+        
+        loss.backward() # to measure all grads of all tensors that required_grad=True
+        with torch.no_grad():
+            # update hyper-parameter tensors
+            weights -= weights.grad * lr
+            biases -= biases.grad * lr
+            # clear grad
+            weights.grad.zero_()
+            biases.grad.zero_()
+```
+
 ### Day 13(20200213): Read Fastai [Lesson 1 Notes](https://forums.fast.ai/t/deep-learning-lesson-1-notes/27748)
 
 **Some important functions of Fastai lesson 1**:
