@@ -270,4 +270,25 @@ for epochs:
 [Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
 [Practice code using nn.Module](day13/23Refactor using nn.Module.ipynb)
 
+### Day 14(20200214): Practice simple Pytorch - [refactor nn.linear](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
+
+*Answer a question*: what is torch.no_grad():
+	- temporarily set all requires_flag to false
+	- because, when requires_flag=True, it's not able to change values
+	- when it's False, the variable is able to be updated.
+[Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
