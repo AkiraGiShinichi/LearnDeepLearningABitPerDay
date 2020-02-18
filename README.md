@@ -278,6 +278,24 @@ for epochs:
 	- when it's False, the variable is able to be updated.
 [Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
 
+### Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
+
+**Problem**:
+ - Khi train network, dung lượng dành cho network model rất nhỏ. 1 phần là cho Optimizer(lưu Gradient). Phần lớn là cho Activation(nodes, trọng số, delta...).
+
+![](https://images.viblo.asia/0acefde1-c29f-4990-b22f-8dbe4670b758.png)
+*Q*: What is `Transfer network`.
+
+**Solution**:
+ - mua thêm RAM
+ - giảm batchsize
+ - Nén mô hình mạng(model compression): dùng kỹ thuật `Pruning` để cắt tỉa kết nối dư thừa(trọng số = 0); hoặc kỹ thuật `quantization` để kết hợp và phân cụm trọng số để biểu diễn *cùng một số lượng liên kết với ít bộ nhớ hơn* => đánh đổi: accuracy giảm.
+ - Gradient Checkpointing: giảm Activation memory bằng cách thay đổi cách cập nhật trọng số nhưng số lượng tính toán, thời gian train tăng lên nhiều(O(n) -> O(n^2)).
+![](https://miro.medium.com/max/541/0*NARheCDvdoPc4A8z.)
+![](https://miro.medium.com/max/676/0*udMSiPD0kZHum-sZ.)
+ - Online learning:
+![](https://miro.medium.com/max/4385/1*eSSU6uX7NR5kPK7ZbfnnVw.png)
+ - Thay format dữ liệu
 
 
 
