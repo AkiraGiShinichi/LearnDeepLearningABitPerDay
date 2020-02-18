@@ -310,6 +310,20 @@ Tree of essential modules:
 ![](https://miro.medium.com/max/4385/1*eSSU6uX7NR5kPK7ZbfnnVw.png)
  - Thay format dữ liệu
 
+### Day 18(20200218): Read [Tạo chatbot trên Chatwork tự động giải đáp thông tin về dịch COVID-2020](https://viblo.asia/p/tao-chatbot-tren-chatwork-tu-dong-giai-dap-thong-tin-ve-dich-covid-2020-924lJq9XZPM?fbclid=IwAR04xoSkAA3z9dZzEV12flP9tN_vpU_x1H3jeIavgirhWLSOFA8nJpovyF8)
+
+**Main problems**:
+ - update dữ liệu thường xuyên
+ - hệ thống chat
+ - hệ thống backend
+
+**System Design**:
+![](https://images.viblo.asia/1acf30f4-e621-4804-98b3-fa66df8e2fba.png)
+ - Chatwork get question from user, it request Webhook -> Webhook parse message then forward to NLU of RASA
+ - RASA analyses message intent then executes logic operation.
+ - base on intent, Python Pandas analyses data then responses by Django.
+ - Chatwork gets response message than forward it to user.
+
 
 
 
