@@ -272,11 +272,24 @@ for epochs:
 
 ### Day 14(20200214): Practice simple Pytorch - [refactor nn.linear](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
 
+Tree of essential modules:
+ - torch:
+   + .nn:
+	1. Module
+	2. Parameter
+	3. Linear
+   + .optim: SGD, ...
+   + .utils.data:
+	1. TensorDataset
+	2. DataLoader
+
 *Answer a question*: what is torch.no_grad():
 	- temporarily set all requires_flag to false
 	- because, when requires_flag=True, it's not able to change values
 	- when it's False, the variable is able to be updated.
 [Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
+
+[Practice code using nn.Linear, optim, utils.data](day14)
 
 ### Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
 
