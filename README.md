@@ -317,6 +317,21 @@ def fit(...):
 
 ### Day 16(20200216): Practice simple Pytorch(ngày 16 nghỉ, làm bù vào ngày 18).
 
+[Practice code - Switch to CNN](day16/29Switch to CNN.ipynb)
+[Practice code - use Sequence](day16/30nn.Sequential.ipynb)
+
+**Pytorch flexible computation**:
+ - x.view(...)
+
+**Run model on GPU**:
+```python
+dev = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
+...
+x.view(...).to(dev)
+y.to(dev)
+model.to(dev)
+```
+
 ### Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
 
 **Problem**:
