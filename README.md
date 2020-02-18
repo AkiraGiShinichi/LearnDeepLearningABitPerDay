@@ -291,6 +291,32 @@ Tree of essential modules:
 
 [Practice code using nn.Linear, optim, utils.data](day14)
 
+### Day 15(20200215): Practice simple Pytorch(ngày 15 nghỉ, làm bù vào ngày 18).
+
+[Practice code - Create model, fit and get_data](day15)
+```python
+class ModelX(nn.Module):
+    ...
+
+
+def get_data(...):
+   ...
+   return (DataLoader(train_ds, bs, shuffle=True),
+	   DataLoader(valid_ds, bs))
+
+def create_model():
+   return model, opt
+
+def batch_loss(model, loss_func, xb, yb, opt=None):
+   ...
+
+def fit(...):
+   ...
+
+```
+
+### Day 16(20200216): Practice simple Pytorch(ngày 16 nghỉ, làm bù vào ngày 18).
+
 ### Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
 
 **Problem**:
