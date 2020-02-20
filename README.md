@@ -365,6 +365,18 @@ model.to(dev)
  - base on intent, Python Pandas analyses data then responses by Django.
  - Chatwork gets response message than forward it to user.
 
+### Day 19(20200219): Practice expression classification - Làm bù ngày 20.
+
+**Done**:
+ - Download expression data from Kaggle.
+ - build program to train classification network, and test prediction
+
+**Not Done Yet**:
+ - evaluate accuracy
+ - not show comparison matrix
+
+[Practice code - expression classification](day19/prac-lesson21.ipynb)
+
 
 
 
