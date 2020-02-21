@@ -409,7 +409,7 @@ model.to(dev)
 	+ Support Vector Machine(SVM)
 	+ LSM, ELM, ESN, KN, **Neural Turing Machine(NTM)**
 
-![](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
+![](https://miro.medium.com/max/2500/1*gccuMDV8fXjcvz1RSk4kgQ.png)
 
 **Source Article**: [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
