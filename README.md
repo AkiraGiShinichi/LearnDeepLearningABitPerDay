@@ -365,7 +365,7 @@ model.to(dev)
  - base on intent, Python Pandas analyses data then responses by Django.
  - Chatwork gets response message than forward it to user.
 
-### Day 19(20200219): Practice expression classification - Làm bù ngày 20.
+### Day 19(20200219): Practice expression classification - Làm bù vào ngày 20.
 
 **Done**:
  - Download expression data from Kaggle.
@@ -377,16 +377,80 @@ model.to(dev)
 
 [Practice code - expression classification](day19/prac-lesson21.ipynb)
 
+### Day 20(20200220): Synthetize kinds of Neural Network - Làm bù vào ngày 21.
 
+**Network types**:
+ - Forward: 
+	+ Perceptron
+	+ Feed Forward
+	+ **Deep Feed Forward(DFF) ~ Multi-layer Perceptron(MLP)**
+ - Recurrent:
+	+ Recurrent Neural Network(RNN)
+	+ **Long/Short Term Memory(LSTM)**
+	+ Gated Recurrent Unit(GRU)
+ - Auto-Encoder:
+	+ **Auto-Encoder(AE)**
+	+ Variantional Auto-Encoder(VAE)
+	+ Denoising Auto-Encoder(DAE)
+	+ Sparse Auto-Encoder(SAE)
+ - Chain:
+	+ Markov Chain(MC)
+	+ Hopfield Network(HN)
+	+ Boltzmann Machine(BM)
+	+ Restricted Boltzmann Machine(RBM)
+	+ **Deep Belief Network(DBN)**
+ - Convolutional:
+	+ **Deep Convolutional Network(DCN)**
+	+ Deconvotional Network(DN)
+	+ Deep Convolutional Inverse Graphics Network(DCIGN)
+ - Others:
+	+ **Generative Adversarial Network(GAN)**
+	+ **Deep Residual Network(DRN)**
+	+ Support Vector Machine(SVM)
+	+ LSM, ELM, ESN, KN, **Neural Turing Machine(NTM)**
 
+![](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
+**Source Article**: [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
+### Day 21(20200221): Backpropagation & Weight Update.
 
+**Network**:
+![](https://miro.medium.com/max/1793/1*fnU_3MGmFp0LBIzRPx42-w.png)
 
+**Activations**:
+ - ReLU:
+![](https://miro.medium.com/max/1440/1*Zydya39KBX6JoLUTRIneWQ.png)
+![](https://miro.medium.com/max/1430/1*pWYG8v_vepzrvSkbV8z6lw.png)
+ - Sigmoid:
+![](https://miro.medium.com/max/1394/1*bnRzdcuXyQn5WHFCmcM36Q.png)
+![](https://miro.medium.com/max/1563/1*7BV4iqZRHrkGmWRrmYOuFw.png)
+ - Softmax:
+![](https://miro.medium.com/max/1611/1*JgoFiHOQauknwhMd1_hjRg.png)
+![](https://miro.medium.com/max/1649/1*7BzpaIXwjL8CIB4f5PHg_w.png)
 
+**Error**:
+![](https://miro.medium.com/max/1166/1*6YcTN8sQfJB4P6NamglBUg.png)
+![](https://miro.medium.com/max/1725/1*dRX0O_3p5FICxp1AhGVLLw.png)
 
+**Derivatives**:
+ - ReLU:
+![](https://miro.medium.com/max/328/1*vuXXfYips0L51d3yfKrf6w.png)
+ - Sigmoid:
+![](https://miro.medium.com/max/678/1*9gk0k_cqUREhs_2CCjKmLw.png)
+ - Softmax:
+![](https://miro.medium.com/max/768/1*l6GNTFihUu0EuUMUGHMwpA.png)
 
-
-
-
+**Backpropagation**:
+ - Hidden 2 - Output:
+ - Hidden 1 - Hidden 2:
+ - Input - Hidden 1:
+ 
+**Results**:
+ - Initial weights:
+ - Final weights:
+ 
+**Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
+ 
+ 
 
