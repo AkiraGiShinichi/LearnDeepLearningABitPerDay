@@ -1,6 +1,11 @@
 # LearnDeepLearningABitPerDay
 Drop-Learning the Deep Learning. Each day learn 1 pomodoro whatever about DL: vision, techniques, coding, ...
 
+**Rule of challenge*:
+> Each day learn a bit. But if there is a day that you can not follow, don't be down and don't give up.
+> Do it additionally the next day.
+> DON'T be off 2 days consecutively
+
 ### Day 1(20200201): Have Determination on learning DL.
 To follow these sources:
  - DL powerful framework fastai from Jeremy Howard: https://www.youtube.com/watch?v=XfoYk_Z5AkI&list=PLfYUBJiXbdtSIJb-Qd3pw0cqCbkGeS0xn
@@ -452,5 +457,44 @@ model.to(dev)
  
 **Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
  
+### Day 24(20200224): Read [DeepMind just released Haiku and RLax for neural networks and reinforcement learning](https://towardsdatascience.com/deepmind-just-released-haiku-and-rlax-for-neural-networks-and-reinforcement-learning-a6468f9352cc?gi=85fd0bd7214f)
+
+#### Main content:
+ - JAX: bộ gia tốc code
+ - Haiku & RLax: bộ core thư viện cho JAX
+ - Haiku: simple NN for JAX(developed by author of Sonnet)
+ - RLax: simple RL for JAX
+ - What is [Sonnet](https://github.com/deepmind/sonnet/blob/v2/README.md)? NN based on Tensorflow but pytorch-looked-like.
+
+### Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
+
+#### Main networks:
+ - RCNN
+ - Fast RCNN
+ - Faster RCNN
+ - Mask RCNN
+ - SSD
+ - Yolo
  
+#### New networks:
+ - Retinanet
+ - Centernet
+ - Tridentnet
+ - ...
+![](https://miro.medium.com/max/913/1*vfPZ2PuvTIQnnHsGjzfU_Q.png)
+
+#### New technique: Objects as Points
+ - Use key point estimation to find center points
+ - From center, regress other properties: 3D location, size, orientation,..
+ - Advantages: faster & more accurate than bounding box methods
+
+### Day 27(20200227): 
+
+
+
+
+
+
+
+
 
