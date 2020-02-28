@@ -469,31 +469,69 @@ model.to(dev)
 ### Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
 
 #### Main networks:
- - RCNN
- - Fast RCNN
- - Faster RCNN
- - Mask RCNN
+ - R-CNN
+ - Fast R-CNN
+ - Faster R-CNN
+ - Mask R-CNN
  - SSD
  - Yolo
+ - R-FCN [Object Detection via Region-based Fully Convolutional Networks](https://arxiv.org/abs/1605.06409)
+ - DSSD(Deconvolutional Single Shot Detector)
  
 #### New networks:
  - Retinanet
  - Centernet
  - Tridentnet
+ - LSDA [Large Scale Detection through Adaptation by jhoffman](http://lsda.berkeleyvision.org/)
  - ...
 ![](https://miro.medium.com/max/913/1*vfPZ2PuvTIQnnHsGjzfU_Q.png)
+
+**Good Introduction about Object Detection** [Object Detection with Deep Learning: The Definitive Guide](https://tryolabs.com/blog/2017/08/30/object-detection-an-overview-in-the-age-of-deep-learning/)
 
 #### New technique: Objects as Points
  - Use key point estimation to find center points
  - From center, regress other properties: 3D location, size, orientation,..
  - Advantages: faster & more accurate than bounding box methods
 
-### Day 27(20200227): 
+### Day 27(20200227): Read [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
 
+**Comment**:
+ - honestly, this article is f-cking hard to understand
+ - but it introduces a lot of new methods & terminologies.
+ - should reference it after have a retively deep knowledge about 3D Object Detection
 
+#### Main contents:
+ - Monocular 3D object detection(mono3DOD): is Doing 3D Object Detection from 2D images.
+ - 4 groups of development for mono3DOD: 
+	+ representation transformation: is Converting perspective images to Birds-Eye-View(BEV) or Pseudo-lidar
+	+ keypoints and shape: object detection networks
+	+ geometric reasoning based on 2D/3D constraint:?
+	+ direct generation of 3D bbox:?
+ - 3D vehicle information can be recovered using monocular images:?
 
+### Day 28(20200228): Best source to update Deep Learning
 
+#### Most recommended Newsletters:
+ - https://machinelearningmastery.com/category/deep-learning-for-computer-vision/
+ - https://www.pyimagesearch.com/
+ - https://www.machinelearningisfun.com/
 
+or Blogs of Frameworks:
+ - https://blog.keras.io/
+ - https://pytorch.org/tutorials/
+ - https://towardsdatascience.com/tagged/fastai
+ 
+#### Twitter:
+ - @GoogleAI, @OpenAI, @AndrewYNg, @KDNuggets, @Goodfellow_Ian, @YLeCun, @Karpathy
+ 
+#### Blogs:
+ - https://netflixtechblog.com/
+ - https://research.fb.com/category/computer-vision/
+ - https://ai.googleblog.com/
+ - https://medium.com/airbnb-engineering
+
+#### Youtube:
+ - https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
 
 
 
