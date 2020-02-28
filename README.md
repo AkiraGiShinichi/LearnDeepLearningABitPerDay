@@ -532,6 +532,9 @@ or Blogs of Frameworks:
 
 #### Youtube:
  - https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
+ - https://www.youtube.com/user/keeroyz/featured
+ - https://www.youtube.com/playlist?list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9
+ - https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists
 
 
 
