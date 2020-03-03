@@ -538,6 +538,61 @@ or Blogs of Frameworks:
  - https://www.youtube.com/playlist?list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9
  - https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists
 
+### Day 29(20200229): Practice backpropagation on Matlab (Learnt at day 29, but note at day 32)
+
+**Practice**: [Code](day29/backpropagation-example.m)
+
+**Source Article**: [BACKPROPAGATION EXAMPLE WITH NUMBERS STEP BY STEP](https://www.anotsorandomwalk.com/backpropagation-example-with-numbers-step-by-step/)
+
+### Day 30(20200301): 3D Representations (Learnt at day 30, but note at day 32)
+
+#### 4 main representations:
+ - Point Cloud
+ - Mesh
+ - Volumetric
+ - Projected View RGB(D)
+ 
+#### 4 main approach:
+ - Directly process: PointNet
+ - Edge-based: GraphCNN, SPH, ...
+ - VoxNet, 3DShapeNets, SubVolume, ...
+ - LFD, MVCNN, ...
+ 
+#### DL methods for Point Clouds:
+![](https://pbs.twimg.com/media/ENbxLfIU4AAemSA.jpg)
+
+### Day 31(20200302): Reinforcement Learning Frameworks (Làm bù ngày 32)
+
+#### Main contents - Keywords:
+ - OpenAI Gym
+ - Google Dopamine
+ - Keras-RL
+ - RLLib
+ - MAgent
+ - Facebook Horizon
+ 
+#### Great Tutorial:
+ - [A Free course in Deep Reinforcement Learning from beginner to expert](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
+
+**From source**: [A Comparison of Reinforcement Learning Frameworks: Dopamine, RLLib, Keras-RL, Coach, TRFL, Tensorforce, Coach and more](https://winderresearch.com/a-comparison-of-reinforcement-learning-frameworks-dopamine-rllib-keras-rl-coach-trfl-tensorforce-coach-and-more/)
+
+#### Best RL Framework:
+ - Stable Baselines [Source Benmark Article](https://medium.com/data-from-the-trenches/choosing-a-deep-reinforcement-learning-library-890fb0307092)
+
+### Day 32(20200303): Reinforcement Learning for Drug Engineering
+
+#### Main contents - Keywords:
+ - AlphaFold: system to predict 3D structure of protein from protein sequence [source](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
+ - SMILES([Simplified Molecular Input Line Entry System](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html)): is string representation of a molecule(based off structure & components of a givin molecule) [source](https://towardsdatascience.com/lets-make-some-molecules-with-machine-learning-%EF%B8%8F-429b8838e3ef)
+ - MOSES([MOlecular SEtS](https://github.com/molecularsets/moses)): sets of molecules.
+ - DDR1: a human gene what is associated to a lot of diseases. Inhibit it to cure disease by medical molecular.
+ - ZINC15 dataset: sets of chemical compounds.
+
+**From source**: [Drug Engineering](https://www.youtube.com/watch?v=ya3AdrfKYzc)
+
+#### Practice:
+ - Did follow Drug Engineering([GENTRL](https://github.com/insilicomedicine/GENTRL)) but unsuccessful because of memory limitation.
+
 
 
 
