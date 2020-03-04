@@ -486,6 +486,25 @@ model.to(dev)
  
 **Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
  
+### Day 23(20200223): [Learning Rate finder](https://www.pyimagesearch.com/2019/08/05/keras-learning-rate-finder/) + [Cyclical Learning Rates](https://www.pyimagesearch.com/2019/07/29/cyclical-learning-rates-with-keras-and-deep-learning/)
+
+![](https://www.pyimagesearch.com/wp-content/uploads/2019/08/keras_learning_rate_finder_algorithm.png)
+ 
+![](https://www.pyimagesearch.com/wp-content/uploads/2019/08/learing_rate_finder_lr_plot.png)
+ 
+#### 3 kinds of cycle learning rate:
+ - triangular policy
+ 
+![](https://www.pyimagesearch.com/wp-content/uploads/2019/07/keras_clr_triangular.png)
+
+ - triangular2 policy
+ 
+![](https://www.pyimagesearch.com/wp-content/uploads/2019/07/keras_clr_triangular2.png)
+
+ - exp-range policy
+ 
+![](https://www.pyimagesearch.com/wp-content/uploads/2019/07/keras_clr_exp_range.png)
+ 
 ### Day 24(20200224): Read [DeepMind just released Haiku and RLax for neural networks and reinforcement learning](https://towardsdatascience.com/deepmind-just-released-haiku-and-rlax-for-neural-networks-and-reinforcement-learning-a6468f9352cc?gi=85fd0bd7214f)
 
 #### Main content:
