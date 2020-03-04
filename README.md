@@ -579,6 +579,8 @@ or Blogs of Frameworks:
  - Volumetric
  - Projected View RGB(D)
  
+![](https://i.imgur.com/OPatJnW.png)
+ 
 #### 4 main approach:
  - Directly process: PointNet
  - Edge-based: GraphCNN, SPH, ...
@@ -587,6 +589,8 @@ or Blogs of Frameworks:
  
 #### DL methods for Point Clouds:
 ![](https://pbs.twimg.com/media/ENbxLfIU4AAemSA.jpg)
+
+**From paper**: [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033)
 
 ### Day 31(20200302): Reinforcement Learning Frameworks (Làm bù ngày 32)
 
