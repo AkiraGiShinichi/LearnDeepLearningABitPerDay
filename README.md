@@ -466,6 +466,23 @@ model.to(dev)
  - RLax: simple RL for JAX
  - What is [Sonnet](https://github.com/deepmind/sonnet/blob/v2/README.md)? NN based on Tensorflow but pytorch-looked-like.
 
+### Day 25(20200225): Read Learning Rate (Làm bù 20200304)
+
+![](http://cs231n.github.io/assets/nn3/opt2.gif) ![](http://cs231n.github.io/assets/nn3/opt1.gif)
+
+#### Learning rates:
+ - SGD
+ - Momentum
+ - Adam
+ - Adagrad
+ - Adadelta
+ - RMSProp
+ 
+#### Annealing LR: using decay hyper-parameter, 3 types:
+ - Step decay
+ - Exponential decay
+ - 1/t decay
+
 ### Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
 
 #### Main networks:
