@@ -542,6 +542,8 @@ or Blogs of Frameworks:
 
 **Practice**: [Code](day29/backpropagation-example.m)
 
+![](https://www.anotsorandomwalk.com/wp-content/uploads/machine_learning/backprop/bpg_network_struct.png)
+
 **Source Article**: [BACKPROPAGATION EXAMPLE WITH NUMBERS STEP BY STEP](https://www.anotsorandomwalk.com/backpropagation-example-with-numbers-step-by-step/)
 
 ### Day 30(20200301): 3D Representations (Learnt at day 30, but note at day 32)
