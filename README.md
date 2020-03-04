@@ -418,7 +418,7 @@ model.to(dev)
 
 **Source Article**: [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
-### Day 21(20200221): Backpropagation & Weight Update.
+### Day 21(20200221): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
 
 **Network**:
 ![](https://miro.medium.com/max/1793/1*fnU_3MGmFp0LBIzRPx42-w.png)
@@ -440,20 +440,40 @@ model.to(dev)
 
 **Derivatives**:
  - ReLU:
+ 
 ![](https://miro.medium.com/max/328/1*vuXXfYips0L51d3yfKrf6w.png)
+
  - Sigmoid:
+ 
 ![](https://miro.medium.com/max/678/1*9gk0k_cqUREhs_2CCjKmLw.png)
+
  - Softmax:
+ 
 ![](https://miro.medium.com/max/768/1*l6GNTFihUu0EuUMUGHMwpA.png)
+
+### Day 22(20200222): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
 
 **Backpropagation**:
  - Hidden 2 - Output:
- - Hidden 1 - Hidden 2:
- - Input - Hidden 1:
  
-**Results**:
- - Initial weights:
- - Final weights:
+ ![](https://miro.medium.com/max/848/1*fdDRKoUj5ck2k4Aa2BSaAA.png)
+ 
+ ![](https://miro.medium.com/max/826/1*XWyzdij1A-RpkqPNbm9Lrw.png)
+ 
+ ![](https://miro.medium.com/max/506/1*P5uRZMci3WXBkWU733Qb7w.png)
+ 
+ ![](https://miro.medium.com/max/1510/1*P3itNpDUbbKrTC-Bz_fIHA.png)
+ 
+ - Hidden 1 - Hidden 2:
+ 
+ ![](https://miro.medium.com/max/823/1*NWb_tAHWvBwJc0hNm0LiUQ.png)
+ 
+ ![](https://miro.medium.com/max/1004/1*pU_imzzc1HzLBoeJe_vxng.png)
+ 
+ ![](https://miro.medium.com/max/1490/1*jVJ87PgK9J_0gjKOsBqFtQ.png)
+ 
+ ![](https://miro.medium.com/max/1219/1*PFKvtJ5comzoRzO_xt4Ztw.png)
+ 
  
 **Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
  
