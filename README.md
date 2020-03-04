@@ -451,29 +451,38 @@ model.to(dev)
  
 ![](https://miro.medium.com/max/768/1*l6GNTFihUu0EuUMUGHMwpA.png)
 
-### Day 22(20200222): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
+### Day 22(20200222): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c) (Tiếp day21, note day 0304)
 
 **Backpropagation**:
  - Hidden 2 - Output:
  
- ![](https://miro.medium.com/max/848/1*fdDRKoUj5ck2k4Aa2BSaAA.png)
- 
- ![](https://miro.medium.com/max/826/1*XWyzdij1A-RpkqPNbm9Lrw.png)
- 
- ![](https://miro.medium.com/max/506/1*P5uRZMci3WXBkWU733Qb7w.png)
- 
- ![](https://miro.medium.com/max/1510/1*P3itNpDUbbKrTC-Bz_fIHA.png)
+![](https://miro.medium.com/max/2319/1*YuZ65bGzmk6vMysTDYzOiw.png)
+
+![](https://miro.medium.com/max/848/1*fdDRKoUj5ck2k4Aa2BSaAA.png)
+
+![](https://miro.medium.com/max/826/1*XWyzdij1A-RpkqPNbm9Lrw.png)
+
+![](https://miro.medium.com/max/506/1*P5uRZMci3WXBkWU733Qb7w.png)
+
+![](https://miro.medium.com/max/1510/1*P3itNpDUbbKrTC-Bz_fIHA.png)
  
  - Hidden 1 - Hidden 2:
  
- ![](https://miro.medium.com/max/823/1*NWb_tAHWvBwJc0hNm0LiUQ.png)
+![](https://miro.medium.com/max/1321/1*UVD-nRefD1rTK8ZMVDi81w.png)
  
- ![](https://miro.medium.com/max/1004/1*pU_imzzc1HzLBoeJe_vxng.png)
+![](https://miro.medium.com/max/823/1*NWb_tAHWvBwJc0hNm0LiUQ.png)
+
+![](https://miro.medium.com/max/1004/1*pU_imzzc1HzLBoeJe_vxng.png)
+
+![](https://miro.medium.com/max/1490/1*jVJ87PgK9J_0gjKOsBqFtQ.png)
+
+![](https://miro.medium.com/max/1219/1*PFKvtJ5comzoRzO_xt4Ztw.png)
  
- ![](https://miro.medium.com/max/1490/1*jVJ87PgK9J_0gjKOsBqFtQ.png)
- 
- ![](https://miro.medium.com/max/1219/1*PFKvtJ5comzoRzO_xt4Ztw.png)
- 
+ - Input - Hidden 1:
+  
+![](https://miro.medium.com/max/1926/1*5WUEzefqt5hy-EUEWj_GCA.png)
+
+*The similar way*
  
 **Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
  
