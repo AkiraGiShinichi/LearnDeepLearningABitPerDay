@@ -482,6 +482,14 @@ model.to(dev)
  - Step decay
  - Exponential decay
  - 1/t decay
+ 
+**From lecture**: [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/)
+
+#### Different LR:
+
+![](https://miro.medium.com/max/814/0*IqjMQD4FRr5gf0bQ)
+
+**From article**: [Exploring Learning Rates to improve model performance in Keras](https://towardsdatascience.com/exploring-learning-rates-to-improve-model-performance-in-keras-e37f5e63f16c)
 
 ### Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
 
