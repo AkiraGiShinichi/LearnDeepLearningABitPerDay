@@ -587,6 +587,8 @@ or Blogs of Frameworks:
  - VoxNet, 3DShapeNets, SubVolume, ...
  - LFD, MVCNN, ...
  
+**From slide**: [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://web.stanford.edu/~rqi/pointnet/docs/cvpr17_pointnet_slides.pdf)
+ 
 #### DL methods for Point Clouds:
 ![](https://pbs.twimg.com/media/ENbxLfIU4AAemSA.jpg)
 
@@ -624,6 +626,12 @@ or Blogs of Frameworks:
 #### Practice:
  - Did follow Drug Engineering([GENTRL](https://github.com/insilicomedicine/GENTRL)) but unsuccessful because of memory limitation.
 
+### Day 32(20200303): Run GENTRL on Google Colab Successfully
 
+[Install RDKit directly to Colab](https://colab.research.google.com/drive/1J25sGbKHTU7OtV7F0AzeAtHZ9LS5Pvrj)
+
+[Install Miniconda + RDKit on Colab](https://iwatobipen.wordpress.com/2018/11/01/run-rdkit-and-deep-learning-on-google-colab-rdkit/)
+
+[How to prevent Google Colab from disconnecting ?](https://medium.com/@shivamrawat_756/how-to-prevent-google-colab-from-disconnecting-717b88a128c0)
 
 
