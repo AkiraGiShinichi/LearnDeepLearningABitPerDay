@@ -6,7 +6,7 @@ Drop-Learning the Deep Learning. Each day learn 1 pomodoro whatever about DL: vi
 > Do it additionally the next day.
 > DON'T be off 2 days consecutively
 
-### Day 1(20200201): Have Determination on learning DL.
+## Day 1(20200201): Have Determination on learning DL.
 To follow these sources:
  - DL powerful framework fastai from Jeremy Howard: https://www.youtube.com/watch?v=XfoYk_Z5AkI&list=PLfYUBJiXbdtSIJb-Qd3pw0cqCbkGeS0xn
  - DL general view from Siraj Raval: https://www.youtube.com/watch?v=eN9Lb3vXsAw
@@ -20,13 +20,13 @@ Expert goals:
  - Quantum Computing
  - Blockchain
 
-### Day 2(20200202): Clear Goals of DL.
+## Day 2(20200202): Clear Goals of DL.
  - Image processing: computer vision + object detection
   - Neural Network models: DNN, CNN, DRNN, GAN, ResNET, Dense net, Siamese NET, ...
   - Optimization Algorithm: LP, DP, ILP, and all kind of heuristic searching algorithm
  - NLP: ?
  
-### Day 3(20200203): DL Optimization.
+## Day 3(20200203): DL Optimization.
  - LP: Logic Programs
  - DP: Dynamic Programming
  - GP: Generic Programming
@@ -35,7 +35,7 @@ Expert goals:
  - Meta-heuristic algorithms: Genetic Algorithm or Partical Swarm Optimization & variant [Survey of Meta-Heuristic Algorithms for Deep Learning Trainin - 2016](https://www.intechopen.com/books/optimization-algorithms-methods-and-applications/survey-of-meta-heuristic-algorithms-for-deep-learning-training), A*, Deep Learning Heuristic Tree Search
  ![](https://www.intechopen.com/media/chapter/51131/media/fig2.png)
 
-### Day 4(20200204): How to use [Pytorch/Fastai.v3](https://course.fast.ai/)
+## Day 4(20200204): How to use [Pytorch/Fastai.v3](https://course.fast.ai/)
 **Simplest training program**: 4 steps
 ```Python
 from fastai.vision import *
@@ -58,7 +58,7 @@ learn.fit(1)
 
 **Should inquire next next day:** Fastai emphasis: https://www.fast.ai/
 
-### Day 5(20200205): Read half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
+## Day 5(20200205): Read half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
 
 **Summarize smt I learnt from reading it:**
  - Feedfoward Network 1 hidden layer có thể ước lượng mọi hàm ⇒ ứng dụng?
@@ -70,7 +70,7 @@ learn.fit(1)
   - **Mix precision training**: Single precision for backpropagation, half precision for feedforward. ⇒ How effective & How to implement?
   - Regularisation: use **magic number 0.1** for weight decay.
 
-### Day 6(20200206): Continue reading half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
+## Day 6(20200206): Continue reading half of a article about Fastai v3 course [10 New Things I Learnt from fast.ai v3](https://towardsdatascience.com/10-new-things-i-learnt-from-fast-ai-v3-4d79c1f07e33)
  - Some different kinds of classsification: multi-label classification, multi-class classification/multinomial classification. How loss of multi-label classification work?
  - Language Modeling: can use transfer learning, should check course ULMFiT.
  - Tabular Data: not understand yet :(
@@ -79,7 +79,7 @@ learn.fit(1)
  - Model interpretability: can observe through fastai activation heat map.
  - To penalize the model complexity by sum square and `wd` ratio.
  
- ### Day 7(20200207): Setup Deep Learning Evironment.
+ ## Day 7(20200207): Setup Deep Learning Evironment.
  
  **Install Ubuntu on MSI**:
   - [Disable Security Boot & add `nomodeset` before install](https://medium.com/@carlosero/making-ubuntu-18-04-work-on-msi-gs65-8re-9818f4d9dc9d). Should analysize only 2 partitions: swap + root
@@ -96,7 +96,7 @@ learn.fit(1)
  - Download & Install from official website
  - Run `source ~/.bashrc`
 
-### Day 8(20200208): Try Fastai DL framework.
+## Day 8(20200208): Try Fastai DL framework.
 **Basic program to train a network:** 3 main steps
 ```python
 # Reference: fastai/course-v3/nbs/dl1/lesson1-pets.ipynb
@@ -119,7 +119,7 @@ learn = cnn_learner(data, models.resnet34, metrics=error_rate)
 learn.fit_one_cycle(4)
 ```
 
-### Day 9(20200209): How to develope a DL application.
+## Day 9(20200209): How to develope a DL application.
 **Steps to develope a DL application**: 4 main steps
  - create your own data
  - train the model
@@ -157,7 +157,7 @@ learn = load_learner(path) # path of "export.pkl"
 pred_class,pred_idx,outputs = learn.predict(img)
 ```
 
-### Day 10(20200210): Create your own image-data from google.
+## Day 10(20200210): Create your own image-data from google.
 
 **Steps to get urls of google images**:
  - type `label` of images into google images
@@ -187,7 +187,7 @@ data.show_batch(rows=3, figsize=(7,8))
 ```
 
 
-### Day 11(20200211): Practice simple Pytorch.
+## Day 11(20200211): Practice simple Pytorch.
 ```python
 %matplotlib inline
 from fastai.basics import *
@@ -216,7 +216,7 @@ lr = 1e-1
 for t in range(100): update() # adjust aa step by step
 ```
 
-### Day 12(20200212): Practice simple Pytorch - [backpropagation](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
+## Day 12(20200212): Practice simple Pytorch - [backpropagation](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
 
 [Practice code](day12/Untitled20.ipynb)
 
@@ -248,7 +248,7 @@ for epochs:
             biases.grad.zero_()
 ```
 
-### Day 13(20200213): Read Fastai [Lesson 1 Notes](https://forums.fast.ai/t/deep-learning-lesson-1-notes/27748)
+## Day 13(20200213): Read Fastai [Lesson 1 Notes](https://forums.fast.ai/t/deep-learning-lesson-1-notes/27748)
 
 **Some important functions of Fastai lesson 1**:
 
@@ -275,7 +275,7 @@ for epochs:
 [Practice code using nn.functional.crossentropy](day13/22Using torch.nn.functional.ipynb)
 [Practice code using nn.Module](day13/23Refactor using nn.Module.ipynb)
 
-### Day 14(20200214): Practice simple Pytorch - [refactor nn.linear](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
+## Day 14(20200214): Practice simple Pytorch - [refactor nn.linear](https://pytorch.org/tutorials/beginner/nn_tutorial.html#refactor-using-nn-module).
 
 Tree of essential modules:
  - torch:
@@ -296,7 +296,7 @@ Tree of essential modules:
 
 [Practice code using nn.Linear, optim, utils.data](day14)
 
-### Day 15(20200215): Practice simple Pytorch(ngày 15 nghỉ, làm bù vào ngày 18).
+## Day 15(20200215): Practice simple Pytorch(ngày 15 nghỉ, làm bù vào ngày 18).
 
 [Practice code - Create model, fit and get_data](day15)
 ```python
@@ -320,7 +320,7 @@ def fit(...):
 
 ```
 
-### Day 16(20200216): Practice simple Pytorch(ngày 16 nghỉ, làm bù vào ngày 18).
+## Day 16(20200216): Practice simple Pytorch(ngày 16 nghỉ, làm bù vào ngày 18).
 
 [Practice code - Switch to CNN](day16/29Switch to CNN.ipynb)
 [Practice code - use Sequence](day16/30nn.Sequential.ipynb)
@@ -337,7 +337,7 @@ y.to(dev)
 model.to(dev)
 ```
 
-### Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
+## Day 17(20200217): Read [Deep Learning cho những máy tính thiếu RAM](https://viblo.asia/p/deep-learning-cho-nhung-may-tinh-thieu-ram-Qbq5Q3VmZD8?fbclid=IwAR1SqfZsE7Zxw6p_fs_uz16fBqbiwOqPxSeNw4Frz0XDD3jCkH9_NySNxaM)
 
 **Problem**:
  - Khi train network, dung lượng dành cho network model rất nhỏ. 1 phần là cho Optimizer(lưu Gradient). Phần lớn là cho Activation(nodes, trọng số, delta...).
@@ -356,7 +356,7 @@ model.to(dev)
 ![](https://miro.medium.com/max/4385/1*eSSU6uX7NR5kPK7ZbfnnVw.png)
  - Thay format dữ liệu
 
-### Day 18(20200218): Read [Tạo chatbot trên Chatwork tự động giải đáp thông tin về dịch COVID-2020](https://viblo.asia/p/tao-chatbot-tren-chatwork-tu-dong-giai-dap-thong-tin-ve-dich-covid-2020-924lJq9XZPM?fbclid=IwAR04xoSkAA3z9dZzEV12flP9tN_vpU_x1H3jeIavgirhWLSOFA8nJpovyF8)
+## Day 18(20200218): Read [Tạo chatbot trên Chatwork tự động giải đáp thông tin về dịch COVID-2020](https://viblo.asia/p/tao-chatbot-tren-chatwork-tu-dong-giai-dap-thong-tin-ve-dich-covid-2020-924lJq9XZPM?fbclid=IwAR04xoSkAA3z9dZzEV12flP9tN_vpU_x1H3jeIavgirhWLSOFA8nJpovyF8)
 
 **Main problems**:
  - update dữ liệu thường xuyên
@@ -370,7 +370,7 @@ model.to(dev)
  - base on intent, Python Pandas analyses data then responses by Django.
  - Chatwork gets response message than forward it to user.
 
-### Day 19(20200219): Practice expression classification - Làm bù vào ngày 20.
+## Day 19(20200219): Practice expression classification - Làm bù vào ngày 20.
 
 **Done**:
  - Download expression data from Kaggle.
@@ -382,7 +382,7 @@ model.to(dev)
 
 [Practice code - expression classification](day19/prac-lesson21.ipynb)
 
-### Day 20(20200220): Synthetize kinds of Neural Network - Làm bù vào ngày 21.
+## Day 20(20200220): Synthetize kinds of Neural Network - Làm bù vào ngày 21.
 
 **Network types**:
  - Forward: 
@@ -418,7 +418,7 @@ model.to(dev)
 
 **Source Article**: [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
-### Day 21(20200221): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
+## Day 21(20200221): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
 
 **Network**:
 ![](https://miro.medium.com/max/1793/1*fnU_3MGmFp0LBIzRPx42-w.png)
@@ -451,7 +451,7 @@ model.to(dev)
  
 ![](https://miro.medium.com/max/768/1*l6GNTFihUu0EuUMUGHMwpA.png)
 
-### Day 22(20200222): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c) (Tiếp day21, note day 0304)
+## Day 22(20200222): Backpropagation & Weight Update from [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c) (Tiếp day21, note day 0304)
 
 **Backpropagation**:
  - Hidden 2 - Output:
@@ -486,7 +486,7 @@ model.to(dev)
  
 **Source article**: [Back-Propagation is very simple. Who made it Complicated ?](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
  
-### Day 23(20200223): [Learning Rate finder](https://www.pyimagesearch.com/2019/08/05/keras-learning-rate-finder/) + [Cyclical Learning Rates](https://www.pyimagesearch.com/2019/07/29/cyclical-learning-rates-with-keras-and-deep-learning/)
+## Day 23(20200223): [Learning Rate finder](https://www.pyimagesearch.com/2019/08/05/keras-learning-rate-finder/) + [Cyclical Learning Rates](https://www.pyimagesearch.com/2019/07/29/cyclical-learning-rates-with-keras-and-deep-learning/)
 
 ![](https://www.pyimagesearch.com/wp-content/uploads/2019/08/keras_learning_rate_finder_algorithm.png)
  
@@ -505,7 +505,7 @@ model.to(dev)
  
 ![](https://www.pyimagesearch.com/wp-content/uploads/2019/07/keras_clr_exp_range.png)
  
-### Day 24(20200224): Read [DeepMind just released Haiku and RLax for neural networks and reinforcement learning](https://towardsdatascience.com/deepmind-just-released-haiku-and-rlax-for-neural-networks-and-reinforcement-learning-a6468f9352cc?gi=85fd0bd7214f)
+## Day 24(20200224): Read [DeepMind just released Haiku and RLax for neural networks and reinforcement learning](https://towardsdatascience.com/deepmind-just-released-haiku-and-rlax-for-neural-networks-and-reinforcement-learning-a6468f9352cc?gi=85fd0bd7214f)
 
 #### Main content:
  - JAX: bộ gia tốc code
@@ -514,7 +514,7 @@ model.to(dev)
  - RLax: simple RL for JAX
  - What is [Sonnet](https://github.com/deepmind/sonnet/blob/v2/README.md)? NN based on Tensorflow but pytorch-looked-like.
 
-### Day 25(20200225): Read Learning Rate & Optimizers (Làm bù 20200304)
+## Day 25(20200225): Read Learning Rate & Optimizers (Làm bù 20200304)
 
 ![](http://cs231n.github.io/assets/nn3/opt2.gif) ![](http://cs231n.github.io/assets/nn3/opt1.gif)
 
@@ -539,7 +539,7 @@ model.to(dev)
 
 **From article**: [Exploring Learning Rates to improve model performance in Keras](https://towardsdatascience.com/exploring-learning-rates-to-improve-model-performance-in-keras-e37f5e63f16c)
 
-### Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
+## Day 26(20200226): Read [A 2019 Guide to Object Detection](https://heartbeat.fritz.ai/a-2019-guide-to-object-detection-9509987954c3#2836)
 
 #### Main networks:
  - R-CNN
@@ -566,7 +566,7 @@ model.to(dev)
  - From center, regress other properties: 3D location, size, orientation,..
  - Advantages: faster & more accurate than bounding box methods
 
-### Day 27(20200227): Read [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
+## Day 27(20200227): Read [Monocular 3D Object Detection in Autonomous Driving — A Review](https://towardsdatascience.com/monocular-3d-object-detection-in-autonomous-driving-2476a3c7f57e)
 
 **Comment**:
  - honestly, this article is f-cking hard to understand
@@ -582,7 +582,7 @@ model.to(dev)
 	+ direct generation of 3D bbox:?
  - 3D vehicle information can be recovered using monocular images:?
 
-### Day 28(20200228): Best source to update Deep Learning
+## Day 28(20200228): Best source to update Deep Learning
 
 #### Most recommended Newsletters:
  - https://machinelearningmastery.com/category/deep-learning-for-computer-vision/
@@ -611,7 +611,7 @@ or Blogs of Frameworks:
  - https://www.youtube.com/playlist?list=PLqFaTIg4myu8t5ycqvp7I07jTjol3RCl9
  - https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/playlists
 
-### Day 29(20200229): Practice backpropagation on Matlab (Learnt at day 29, but note at day 32)
+## Day 29(20200229): Practice backpropagation on Matlab (Learnt at day 29, but note at day 32)
 
 **Practice**: [Code](day29/backpropagation-example.m)
 
@@ -619,7 +619,7 @@ or Blogs of Frameworks:
 
 **Source Article**: [BACKPROPAGATION EXAMPLE WITH NUMBERS STEP BY STEP](https://www.anotsorandomwalk.com/backpropagation-example-with-numbers-step-by-step/)
 
-### Day 30(20200301): 3D Representations (Learnt at day 30, but note at day 32)
+## Day 30(20200301): 3D Representations (Learnt at day 30, but note at day 32)
 
 #### 4 main representations:
  - Point Cloud
@@ -642,7 +642,7 @@ or Blogs of Frameworks:
 
 **From paper**: [Deep Learning for 3D Point Clouds: A Survey](https://arxiv.org/abs/1912.12033)
 
-### Day 31(20200302): Reinforcement Learning Frameworks (Làm bù ngày 32)
+## Day 31(20200302): Reinforcement Learning Frameworks (Làm bù ngày 32)
 
 #### Main contents - Keywords:
  - OpenAI Gym
@@ -660,7 +660,7 @@ or Blogs of Frameworks:
 #### Best RL Framework:
  - Stable Baselines [Source Benmark Article](https://medium.com/data-from-the-trenches/choosing-a-deep-reinforcement-learning-library-890fb0307092)
 
-### Day 32(20200303): Reinforcement Learning for Drug Engineering
+## Day 32(20200303): Reinforcement Learning for Drug Engineering
 
 #### Main contents - Keywords:
  - AlphaFold: system to predict 3D structure of protein from protein sequence [source](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
@@ -674,12 +674,123 @@ or Blogs of Frameworks:
 #### Practice:
  - Did follow Drug Engineering([GENTRL](https://github.com/insilicomedicine/GENTRL)) but unsuccessful because of memory limitation.
 
-### Day 32(20200303): Run GENTRL on Google Colab Successfully
+## Day 33(20200304): Run GENTRL on Google Colab Successfully
 
 [Install RDKit directly to Colab](https://colab.research.google.com/drive/1J25sGbKHTU7OtV7F0AzeAtHZ9LS5Pvrj)
 
 [Install Miniconda + RDKit on Colab](https://iwatobipen.wordpress.com/2018/11/01/run-rdkit-and-deep-learning-on-google-colab-rdkit/)
 
 [How to prevent Google Colab from disconnecting ?](https://medium.com/@shivamrawat_756/how-to-prevent-google-colab-from-disconnecting-717b88a128c0)
+
+## Day 34(20200305): Deep Learning Framework
+
+#### Frameworks:
+ - for Study: Keras
+ - for Research: Pytorch
+ - for Production: Tensorflow for Google Cloud, MXNet & Gluon for AWS
+ - on Android: D4LJ. on IOS: Core ML
+ - for interaction(convert) between frameworks: ONNX
+
+ **Sources**:
+ - [Deep Learning Frameworks 2019](https://youtu.be/SJldOOs4vB8)
+ - [Best Deep Learning Frameworks in 2019](https://towardsdatascience.com/top-10-best-deep-learning-frameworks-in-2019-5ccb90ea6de)
+
+## Day 35(20200306): Deep Learning for Robot Picking
+
+#### Keys:
+ - Semantic Segmentation - deeplab:  https://www.paperswithcode.com/paper/encoder-decoder-with-atrous-separable#code
+ - Create Segmentation Dataset: https://gilberttanner.com/blog/fastai-image-segmentation
+ - Annotation tools for computer vision: https://hackernoon.com/the-best-image-annotation-platforms-for-computer-vision-an-honest-review-of-each-dac7f565fea
+ - Robot Grasping:  https://www.paperswithcode.com/task/robotic-grasping
+ - Google team: https://research.google/teams/brain/robotics/
+
+## Day 36(20200307): Find Annotation tools for Image Segmentation
+
+#### 2D:
+ - the best: https://github.com/abreheret/PixelAnnotationTool
+ - so so: https://github.com/wkentaro/labelme
+ - article of recommendations: https://www.sicara.ai/blog/2019-09-01-top-five-open-source-annotation-tools-computer-vision
+
+#### 3D:
+ - seems great: https://3d.supervise.ly/
+ - seems potential: https://strands.readthedocs.io/en/latest/annotation_tool_kth/annotation-tool.html
+ - article of recommendations: https://medium.com/deep-systems/releasing-first-online-3d-point-cloud-labeling-tool-in-supervisely-4faca42b5d6e
+
+## Day 37(20200308): Read [4 Unique Methods to Optimize your Python Code for Data Science](https://www.analyticsvidhya.com/blog/2019/09/4-methods-optimize-python-code-data-science/)
+
+#### Main keys:
+ - Create new features from existing features: `Pandas.apply()`
+ - Optimized way to update some values of a particular column: `Pandas.DataFrame.loc`
+ - Speed up the loops of function that processes data: `np.vectorize(func)`
+ - Break process into multiple tasks and run them independently: 
+ ```python
+import multiprocessing as mp
+
+pool = mp.Pool(processes = (mp.cpu_count() - 1))
+answer = pool.map(function, data)
+pool.close()
+pool.join()
+ ```
+
+## Day 38(20200309): Read [Reinforcement Learning Applications](https://medium.com/@yuxili/rl-applications-73ef685c07eb)
+
+![](https://miro.medium.com/proxy/1*-mnyrNMXcCoqAj5svDpoXg.png)
+
+#### Production systems:
+ - [Cloud AutoML: Making AI accessible to every business](https://www.blog.google/products/google-cloud/cloud-automl-making-ai-accessible-every-business/)
+ - [Horizon: The first open source reinforcement learning platform for large-scale products and services](https://engineering.fb.com/ml-applications/horizon/)
+
+## Day 39(20200310): Read [GAN - Li Niu's cheatsheet](https://ustcnewly.github.io/2018/09/07/deep_learning/GAN/)
+
+#### GAN state-of-art:
+ - BigGAN
+ - LoGAN
+
+#### GAN training-problem:
+ - oscillation: maybe train for long time without clearly generating samples
+
+#### Training tricks:
+ - soft label: replace 1 by 0.9, 0 by 0.3
+ - train discriminater more times(x2) than generator
+ - normalize inputs to [-1, 1]
+ - use tanh before output
+ - use batchnorm
+ - use spherical distribution instead of uniform distribution
+ - leaky relu
+ - spectral normalization
+ - orthogonal initialization
+ - enforce orthogonality on weights
+ - gradient penalty
+ - ...
+ 
+## Day 40(20200311): Read [Reinforcement Learning: What is, Algorithms, Applications, Example](https://www.guru99.com/reinforcement-learning-tutorial.html)
+
+#### What is Reinforcement Learning?: 
+ - a Machine Learning method that learns how should take actions in an environment.
+ - Neural Network helps to attain complex objective.
+
+ ![](https://www.guru99.com/images/1/082319_0514_Reinforceme1.png)
+
+#### 3 approaches of Reinforcement Learning algorithms:
+ - Value-based: attempt to maximize the value function V(S)
+ - Policy-based: come up a policy that maximize the future Reward R
+ - Model-based: create virtual model of environment
+
+ #### Reinforcement Learning characteristics:
+  - no supervisor, only real value of Reward signal
+  - sequential of decision making
+  - feedback is always delayed
+
+#### 2 types of Reinforcement Learning(RL):
+ - Positive: increase strength & frequency of the behavior that impacts positively
+ - Negative: strengthen the behavior that avoids negative state as much as possible(amsp)
+
+#### 2 learning models of RL:
+ - Markov Decision Process: As - Ss - R - n - V
+ - Q learning(value-based approach)
+
+#### Biggest problem:
+ - parameters may affect the learning speed
+
 
 
