@@ -792,5 +792,20 @@ pool.join()
 #### Biggest problem:
  - parameters may affect the learning speed
 
+## Day 41(20200312): Read [Làm thử hệ thống phát hiện khẩu trang và nhắc nhở nếu không đeo bằng OpenCV](https://ainoodle.vn/2020/03/11/chung-tay-chong-covid-19-lam-thu-he-thong-nhac-deo-khau-trang-bang-opencv/?fbclid=IwAR0TgQQu114_3leMsCKU7Z9TiSFEpKI7FtNxP4naRxMbLTajmKRxp9aOFD4)
+
+#### How to:
+ - 1st: detect face; 2nd: detect comforter. Ưu: high accuracy; Nhược: but there is no data of masked face.
+ - 1st: detect face; 2nd: use landmark to detect mouth area; calculate saturation and compare to a threshold to check whether there is comforter. Ưu: needn't data of masks; Nhược: not very accurate(depended on light intensity).
+
+#### Doubt:
+ - What is **landmark algorithm**: face landmark là thuật toán xác định hình dạng(xác định tập điểm trong bức ảnh) khuôn mặt người. [source article](https://blog.vietnamlab.vn/2018/04/24/dlib-phan-2-xac-dinh-facial-landmark-voi-dlib-va-python-2/)
+
+
+
+
+
+ 
+
 
 
